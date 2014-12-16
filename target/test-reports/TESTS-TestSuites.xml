@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="home-pc" id="0" name="TekEventSpec" package="com.tekdays" tests="1" time="4.841" timestamp="2014-12-16T17:51:58">
+      <properties />
+
+      <testcase classname="com.tekdays.TekEventSpec" name="test toString" time="4.696">
+          <failure message="Condition not satisfied:&#xa;&#xa;tekEvent.toString()==&apos;Groovy Two, San Francisco&apos;&#xa;|        |         |&#xa;|        |         false&#xa;|        |         3 differences (88% similarity)&#xa;|        |         Groovy (One), San Francisco&#xa;|        |         Groovy (Two), San Francisco&#xa;|        Groovy One, San Francisco&#xa;Groovy One, San Francisco&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+tekEvent.toString()==&apos;Groovy Two, San Francisco&apos;
+|        |         |
+|        |         false
+|        |         3 differences (88% similarity)
+|        |         Groovy (One), San Francisco
+|        |         Groovy (Two), San Francisco
+|        Groovy One, San Francisco
+Groovy One, San Francisco
+
+	at com.tekdays.TekEventSpec.test toString(TekEventSpec.groovy:22)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test toString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test toString--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
