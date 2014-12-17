@@ -3,12 +3,13 @@ package com.tekdays
 class TekEvent {
 	String city
 	String name
-	String organizer
+	TekUser organizer
 	String venue
 	Date startDate
 	Date endDate
 	String description
 
+	static hasMany=[volunteers: TekUser, respondents: String, sponsors: Sponsor]
 	String toString(){
 		"$name, $city"
 	}
