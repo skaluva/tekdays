@@ -9,7 +9,8 @@ class TekEvent {
 	Date endDate
 	String description
 
-	static hasMany=[volunteers: TekUser, respondents: String, sponsors: Sponsor]
+	static hasMany=[volunteers: TekUser, respondents: String, sponsorships: Sponsorship,
+					tasks: Task, messages: TekMessage]
 	String toString(){
 		"$name, $city"
 	}
@@ -22,6 +23,9 @@ class TekEvent {
     	venue()
     	startDate()
     	endDate()
-
+    	volunteers nullable:true
+    	sponsorships nullable:true
+    	tasks nullable:true
+    	messages nullable:true
     }
 }
