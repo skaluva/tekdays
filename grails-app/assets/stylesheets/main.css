@@ -594,3 +594,23 @@ a.skip {
 	position: absolute;
 	left: -9999px;
 }
+
+/*Message Create*/
+.messageField {
+	width:550px
+}
+/*Ajaxlist*/
+#messageList {
+	margin: 20px 30px;
+	overflow:auto
+}
+#messageList p {
+	margin: 10px 0;
+}
+#show-message {
+	margin: 20px 30px;
+}
+#detailHeading {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}

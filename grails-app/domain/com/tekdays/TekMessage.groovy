@@ -5,6 +5,7 @@ class TekMessage {
 	String content
 	TekMessage parent
 	TekUser author
+    TekEvent event
 
 
     static constraints = {
